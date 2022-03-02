@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <MDBinDir>\Applications\Visual Studio.app\Contents\Resources\lib\monodevelop\bin</MDBinDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Mono.Addins">
+      <Private>False</Private>
+      <HintPath>$(MDBinDir)\Mono.Addins.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.Core">
+      <Private>False</Private>
+      <HintPath>$(MDBinDir)\MonoDevelop.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoDevelop.Ide">
+      <Private>False</Private>
+      <HintPath>$(MDBinDir)\MonoDevelop.Ide.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <Private>False</Private>
+      <HintPath>$(MDBinDir)\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
